@@ -16,7 +16,7 @@ export class MapaDeGoogleComponent implements OnInit {
 
   ngOnInit() {}
 
-  mapClick(event: string) {
+  mapClicked(event: any) {
     console.log(event);
   }
 }
